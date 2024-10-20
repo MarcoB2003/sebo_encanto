@@ -1,0 +1,184 @@
+.banner1{
+  height: 500px;
+  min-width: 100%;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.texto-banner{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    top: -450px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,  
+    -1px 1px 0 #000,  
+    1px 1px 0 #000;
+}
+
+.nossa-loja{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  top: -365px;
+  background-color: #f1f1f1;
+}
+
+.local-banner{
+  width: 1200px;
+  display: flex;
+}
+
+p{
+  text-align: center;
+  width: 1000px;
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.lista-gibis{
+  position: relative;
+  z-index: 2;
+  top: -320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gibis{
+  display: flex;
+  gap: 60px;
+}
+
+.gibi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gibi img{
+  width: 200px;
+  height: 280px;
+}
+
+.lista-comprados{
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+  padding-left: 16px;
+}
+
+.comprados{
+  display: flex;
+  gap: 290px;
+}
+
+.comprado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comprado img{
+  width: 200px;
+  height: 280px;
+  object-fit: fill;
+}
+
+.comprados{
+  display: flex;
+  gap: 290px;
+}
+
+.comprado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ultimos{
+  padding-right: 40px;
+}
+
+.lista-lancamentos{
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-left: 36px;
+}
+
+.lancamentos {
+  gap: 300px; 
+  display: flex;
+  justify-content: center;
+  
+}
+
+.lancamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lancamento img {
+  width: 200px;
+  height: 280px;
+  object-fit: fill;
+}
+
+.editoras-lista img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.editoras-lista {
+  display: flex;
+  gap: 48px;
+}
+
+.editoras{
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  background-color: #F1F1F1;
+  width: 100%;
+}
+
+footer{
+  background-color: #246EAE;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+footer div{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.sebo{
+ color: yellow;
+}
